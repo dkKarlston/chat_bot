@@ -1,0 +1,52 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-city",
+      "2": "I-city",
+      "3": "L-city",
+      "4": "U-city",
+      "5": "B-expression",
+      "6": "I-expression",
+      "7": "L-expression",
+      "8": "U-expression",
+      "9": "B-favorite_topic",
+      "10": "I-favorite_topic",
+      "11": "L-favorite_topic",
+      "12": "U-favorite_topic",
+      "13": "B-name",
+      "14": "I-name",
+      "15": "L-name",
+      "16": "U-name",
+      "17": "B-query",
+      "18": "I-query",
+      "19": "L-query",
+      "20": "U-query",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-city": 1,
+      "I-city": 2,
+      "L-city": 3,
+      "U-city": 4,
+      "B-expression": 5,
+      "I-expression": 6,
+      "L-expression": 7,
+      "U-expression": 8,
+      "B-favorite_topic": 9,
+      "I-favorite_topic": 10,
+      "L-favorite_topic": 11,
+      "U-favorite_topic": 12,
+      "B-name": 13,
+      "I-name": 14,
+      "L-name": 15,
+      "U-name": 16,
+      "B-query": 17,
+      "I-query": 18,
+      "L-query": 19,
+      "U-query": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  }
+]

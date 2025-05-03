@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-city",
+      "2": "I-city",
+      "3": "L-city",
+      "4": "U-city",
+      "5": "B-expression",
+      "6": "I-expression",
+      "7": "L-expression",
+      "8": "U-expression",
+      "9": "B-query",
+      "10": "I-query",
+      "11": "L-query",
+      "12": "U-query",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-city": 1,
+      "I-city": 2,
+      "L-city": 3,
+      "U-city": 4,
+      "B-expression": 5,
+      "I-expression": 6,
+      "L-expression": 7,
+      "U-expression": 8,
+      "B-query": 9,
+      "I-query": 10,
+      "L-query": 11,
+      "U-query": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

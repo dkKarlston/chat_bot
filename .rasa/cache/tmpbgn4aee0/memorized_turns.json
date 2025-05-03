@@ -1,0 +1,15 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "utter_ask_name",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpZSYkFicDebjNCQWAP8dTtE=": "action_listen",
+    "eJylj0EKAjEMRa+SAwyi216llFIkSnAmlSTjpvTuxqkiuBF0l89/vCSx9QnaVfCWy9GocoA2hsxlwQDPMJMasrOrojhD7NECnAXR+hfHaoaSB/qPoehlyz9KPl/RuZo6NNp42O3T2+xaMkLv46NPE7x2EZ+qLOOQnu54kHiS": "utter_name",
+    "eJytj8EKAjEMRH8lH7CIXvsrpZQiUYK7qSRZL2X/3WhXBC+Kessww5tJbMsA7Sx4yWVvVDlA60fmMmGAVYykhuzZWVE8Q+zSAhwF0ZY3jNkMJffoL4Sip7v+EvL6io7V1EPdjbvNNj3JjiUjdD/e/DTAo4v4UGXqQz6avU7+R126Apt6oRs=": "utter_ask_topic",
+    "eJy9kMEKwjAQRH9lP6CIXvMrIYRQVllsN2Wz9RL6725NRfCiqHjLMMOb2fi6dFAnwUtMvVJmB7U9IqcRHWxioKLIlp0LimWITaqDkyDq8oIxq6LEFv2GkMr5pj+EPJ9ShqzFQs31h90+PMiGJSU0369+6ODeRXzMMrYhb83eJv+rbv0lzRP1P+oMV2Fjy8A=": "action_listen",
+    "eJy9kFEKwyAQRK+yB5DS/noVEZGwKUsTDbrJj3j3mmopbSkpLeTPYceZt6tSFpCmgIuxHZN3ElJ9GGdHlNDEQJHRFe8cMRQPuSJZwjkgct7ImJkxmGr9J8HGy03/GPK6Shw8x2KqU3U6HPUjucQSE5a5WudawL2LXO/DWEG+wm7Ie9WtV2I/UbdL56ej9nbxgRgrSusWsAXy/O0dqS6W9RXrzgIW": "action_save_user_memory",
+    "eJy9kFEKwjAQRK+SAxTR31ylhBDKVhabpGy2ASm9u4mJiIq0KPQvw05m3m47L42YR4KoTcfonRRzeWhnLEhRxYCBwSXvFICSB12SLMWZAHhZyZiYgXSx/pNgwuWufwx5XyUMnkMylWl7OhzVMznFIiOkeZvnqhGPLnS9J1tANmFX5L3q8pXYj9jt0vntqL2JnpChoNTuRqyBvH77RCqLbWMKJoLOFdqC9XTdjU7dAGQpPJM=": "utter_goodbye",
+    "eJzNk2EKwjAMha/SAwzRv7vKGKXOTIJrM9JsMMbubmcroiIbCsN/DXl970sgxThlamwZem0qQXK5GuNDO2MhV6lo0Au4oO08cNCgC6Xk6swAMi14dCLAOkp/cTD+cqu/NHkdxTckPohitzjs9uXDOdiiIIR+MffLTN2z0NXENoKswk7IW8XNWxJqsdok89NSa9MTo0BESdmZWgJ5/vaOFAdbx+RND3qO0BYs8fAndOkaiE7HATZjKq8rwnLq": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfHlqTnJ+bmp8UmJydk4DYoFAMJ1N1w=": "utter_ask_next",
+    "eJyljFEKgCAQBa/iATqBV4lYTB4h6ha6ViDePaF+o4/+ZmCYsbZB1S1hJ2PFraxVvYHYRGj1SHBZwL0tGak3jruKVksCpH08iggSHQh2jaDZWP9rZLInximvk+kCQQ9RtA==": "action_listen"
+  }
+}

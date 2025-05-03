@@ -1,0 +1,46 @@
+version: "3.1"
+
+stories:
+  - story: Сохранение данных
+    steps:
+      - intent: inform_name
+        entities:
+          - name
+      - action: utter_name
+      - action: utter_ask_topic
+      - intent: inform_topic
+        entities:
+          - favorite_topic
+      - action: action_save_user_memory
+      - action: utter_goodbye
+
+  - story: Новая регистрация
+    steps:
+      - intent: greet
+      - action: action_load_user_memory
+      - condition: #в rules а не в stories
+          - slot_was_set:
+              - name: null
+              - favorite_topic: null
+        action: utter_greet
+      - action: utter_ask_name
+      - intent: inform_name
+        entities:
+          - name
+      - action: utter_name
+      - action: utter_ask_topic
+      - intent: inform_topic
+        entities:
+          - favorite_topic
+      - action: action_save_user_memory
+      - action: utter_goodbye
+
+  - story: изменить имя
+    steps:
+      - intent: show_settings
+      - action: utter_settings
+      - intent: change_name
+      - action: utter_ask_name
+      - intent: inform
+      - action: action_save_settings
+      - action: utter_done

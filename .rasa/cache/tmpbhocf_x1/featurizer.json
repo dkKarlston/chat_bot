@@ -1,0 +1,73 @@
+{
+  "type": "IntentMaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "ask_abilities": 0,
+        "ask_date": 1,
+        "ask_fact": 2,
+        "ask_name": 3,
+        "ask_time": 4,
+        "ask_weather": 5,
+        "back": 6,
+        "calculate": 7,
+        "goodbye": 8,
+        "greet": 9,
+        "inform": 10,
+        "mood_negative": 11,
+        "mood_neutral": 12,
+        "mood_positive": 13,
+        "nlu_fallback": 14,
+        "out_of_scope": 15,
+        "restart": 16,
+        "search_web": 17,
+        "session_start": 18
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "action_get_weather": 13,
+        "action_get_time": 14,
+        "action_tell_fact": 15,
+        "action_search_web": 16,
+        "action_calculate": 17,
+        "action_analyze_mood": 18,
+        "utter_abilities": 19,
+        "utter_ask_city": 20,
+        "utter_ask_fact_category": 21,
+        "utter_goodbye": 22,
+        "utter_greet": 23,
+        "utter_iamabot": 24,
+        "utter_name": 25
+      },
+      "entities": {
+        "category": 0,
+        "city": 1,
+        "expression": 2,
+        "query": 3
+      },
+      "slots": {
+        "city_0": 0,
+        "query_0": 1,
+        "expression_0": 2,
+        "category_0": 3
+      },
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

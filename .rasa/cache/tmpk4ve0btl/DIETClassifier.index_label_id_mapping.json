@@ -1,0 +1,15 @@
+{
+  "0": "ask_abilities",
+  "1": "ask_date",
+  "2": "ask_fact",
+  "3": "ask_name",
+  "4": "ask_time",
+  "5": "ask_weather",
+  "6": "calculate",
+  "7": "goodbye",
+  "8": "greet",
+  "9": "mood_negative",
+  "10": "mood_neutral",
+  "11": "mood_positive",
+  "12": "search_web"
+}

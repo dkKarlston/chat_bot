@@ -1,0 +1,113 @@
+---
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_time
+  - ask_date
+  - ask_temperature
+  - ask_weather
+  - ask_news
+  - show_settings
+  - change_name
+  - inform
+
+entities:
+  - name
+  - favorite_topic
+  - city
+  - category
+  - query
+  - expression
+  - mood
+
+
+slots:
+  name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: name
+  favorite_topic:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: favorite_topic
+actions:
+  - action_load_user_memory
+  - action_save_user_memory
+  - action_get_time
+  - action_get_weather
+  - action_search_web
+  - action_tell_fact
+  - action_calculate
+  - action_analyze_mood
+  - utter_greet
+  - utter_goodbye
+  - utter_iamabot
+  - utter_ask_name
+  - utter_name
+  - utter_abilities
+  - utter_ask_next
+  - utter_ask_city
+  - utter_ask_fact_category
+  - utter_ask_topic
+  - utter_welcome_back
+  - utter_weather  # Новый ответ
+  - utter_news     # Новый ответ
+  - utter_settings
+  - action_save_settings
+  - utter_done
+
+
+responses:
+  utter_settings:
+    - text: "Настройки профиля:"
+      buttons:
+        - title: "Изменить имя"
+          payload: "/change_name"
+        - title: "Назад"
+          payload: "/back"
+
+  utter_done:
+    - text: "Изменения сохранены! ✅"
+
+  utter_greet:
+    - text: "Привет! Выбери опцию:"
+      buttons:
+        - title: "Погода"
+          payload: "/ask_weather"
+        - title: "Новости"
+          payload: "/ask_news"
+
+  utter_goodbye:
+    - text: "Пока!"
+  utter_iamabot:
+    - text: "Я бот, созданный для помощи."
+  utter_ask_name:
+    - text: "Как тебя зовут?"
+  utter_name:
+    - text: "Рад познакомиться, {name}!"
+  utter_abilities:
+    - text: "Я умею показывать погоду, искать в интернете и многое другое."
+  utter_ask_next:
+    - text: "Что ты хочешь сделать дальше?"
+  utter_ask_city:
+    - text: "Уточни, пожалуйста, в каком городе ты хочешь узнать погоду."
+  utter_ask_fact_category:
+    - text: "Уточни, про какую тему ты хочешь узнать факт."
+  utter_ask_topic:
+    - text: "Какая тема тебе интересна?"
+  utter_welcome_back:
+    - text: "С возвращением, {name}! Готов продолжить говорить о {favorite_topic}?"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
